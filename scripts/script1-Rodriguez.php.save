@@ -2,7 +2,7 @@
 /**
  *Esto es el primer ejemplo de script con dos funciones con operaciones basicas
  *@autor Juan Carlos Rodriguez Miranda
- *@version 1.1
+ *@version 1.0.1
  *@copyright Public Domain
  */
 /**
@@ -22,15 +22,14 @@ function suma($num1,$num2){return $num1 + $num2;}
  *  
  */
 function resta($num1, $num2){return $num1 - $num2;}
+
 /** 
  * Esta función devuelve la multiplicación de dos parametros.
  * @param integer $num1 primer número multiplicación.
- * @param integer $num2 segundo número multiplicacion.
- * @since version 1.1
- * @return resultado multiplicación $num1 y $num2.
- *  
+ * @param integer $num2 segundo número multiplicación.
+ * @since version 1.1 * @return resultado resta $num1 y $num2. 
  */
-function multiplicacion($num1, $num2){return $num1 *  $num2;}
+function multiplicacion($num1, $num2){return $num1 * $num2;}
 
 ?>
 
